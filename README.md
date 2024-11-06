@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Finance.ai - 6ª edição do Full Stack Week
 
-## Getting Started
+Este projeto é uma aplicação SaaS para gestão de finanças, desenvolvido durante o evento **Full Stack Week 6ª Edição**, promovido pela Full Stack Club. A aplicação oferece ferramentas para gerenciar transações financeiras, visualizar gráficos e relatórios e ainda integra um assistente baseado em IA (ChatGPT) para consultas inteligentes.
 
-First, run the development server:
+### Tecnologias Utilizadas
+
+- **Frontend**: React, NextJS, TypeScript, TailwindCSS, Shadcn
+- **Backend**: NodeJS
+- **Banco de Dados**: PostgreSQL
+- **Integrações**: Autenticação com Google, Stripe, ChatGPT
+
+### Funcionalidades
+
+1. **Autenticação**: Login com Google para segurança e praticidade.
+2. **Gestão de Transações**: Visualização, criação, edição e deleção de transações financeiras.
+3. **Dashboard**: Gráficos e visualização das últimas transações.
+4. **IA Integrada**: Consulta com ChatGPT para análises e insights financeiros.
+5. **Planos de Assinatura**: Integração com o Stripe para gestão de assinaturas.
+
+### Links importantes
+
+[Figma](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbEJaTUVFWWpEZ0NqR2tDZ3NheTZQLUgwWi1qd3xBQ3Jtc0ttRC1GeEIyRF81SUFWOV9kb1pFOHBxenNlaUg4NUVjTGpPWmFaWEhoRG9oRXdkbmpyNW1QZGk1V2gxaUxaX2ZjX2FPTnpRbkItUWc1eUlEckhFVVlGUEdOeldEaUpNbzg2bkswLTlCSjk3dlhTcHVodw&q=https%3A%2F%2Fwww.figma.com%2Fdesign%2FndIZ9nevfZZCMxCL4lZxfQ%2FFSW-Finance-%28LIVE%29%3Fnode-id%3D57-1074%26t%3DkZN1xV1G1NWpEaCi-1&v=bSR-iWChMhs)
+[Notion](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbDgyeloxZGxOVjBDTk1vZmdtZDd0SUdPX0pFZ3xBQ3Jtc0tueTdtNVpnd0FNeDV1SERhM0pCeUxkQVQySVdJT0ZZR1pwMkoyS0c1Uk5NT1UyU1pmZWF5SGFyU1A1MnRQUC1Od0hPcHRmTF9SdDg0MXZRdE1WeVY3Vy1tVkR2dnlZWDdaSHMzMWRCT2hNRGdsQTBGSQ&q=https%3A%2F%2Fnarrow-beach-a00.notion.site%2FFull-Stack-Week-6-0-Guia-do-Evento-f29407dc306545eaa3c803d29e148358%3Fpvs%3D4&v=bSR-iWChMhs)
+
+### Instruções de Instalação
+
+1. Clone o repositório.
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/nahteruya/finance-ai.git
+cd finance-ai
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Instale as dependências.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+ npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. Configure o ambiente com suas variáveis (exemplo: autenticação Google, Stripe).
+4. Execute o projeto em ambiente de desenvolvimento.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+ npm run dev
+```
