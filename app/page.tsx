@@ -1,7 +1,9 @@
-import Image from "next/image";
-
-export default function Home() {
+const Home = () => {
   return (
-    <h1>Home page</h1>
+    <h1 className="ml-4 flex h-24 border-2 border-gray-300 p-3 text-gray-700 shadow-md">
+      Home Page
+    </h1>
   );
-}
+};
+
+export default Home;
